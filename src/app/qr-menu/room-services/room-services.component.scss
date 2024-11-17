@@ -1,0 +1,63 @@
+img.bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.PRelative {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+
+
+}
+
+.TitleTxt {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2 !important;
+
+}
+
+.TitleSub {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.listOuter {
+    padding: 0 20px;
+   
+    
+
+
+    .listTxt {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 42px;
+        color: #FFFFFF;
+        padding: 10px 0;
+        background: #F56606;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+<img class="bg" src="assets/img/HotelBackground.png" alt="">
+
+<div class="PRelative">
+    <div class="TitleTxt">Room Options</div>
+    <div class="TitleSub">Room No : 407</div>
+    <div class="boxOuter" uk-scrollspy="cls:uk-animation-fade">
+        <div class="box" [routerLink]="['/qr/menu']" [queryParams]="{debug: true}" >Order Foods</div>
+        <div class="box" [routerLink]="['/qr/roomServices']" [queryParams]="{debug: true}">Book Room Service</div>
+    </div>
+    <div class="boxOuter" uk-scrollspy="cls:uk-animation-fade">
+        <div class="box" [routerLink]="['/qr/roomServices']" [queryParams]="{debug: true}" >Get Extra Accessories</div>
+        <div class="box" [routerLink]="['/qr/roomServices']" [queryParams]="{debug: true}" >Other Services</div>
+    </div>
+</div>
